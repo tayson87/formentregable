@@ -1,38 +1,215 @@
-.App {
-  text-align: center;
+*{
+    margin: 0;
+    padding: 0;    
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+body{
+   background: url(./imagenentregale.jpg) no-repeat center center fixed;
+background-size: cover;
+
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+/* este es el  div del  formulario completo */
+
+.input-container {
+    position: relative;
+    left:top;  
+    top: 80px;
+    left: 50px;
+    padding: 20px; 
+     
+}
+
+/* respuesta de los campos del formulario */
+
+.user-item {
+ position: relative;
+ left: 50%;
+ border: 5px solid  black;
+ width: 500px;
+ bottom: 310px;
+ margin: 15px;
+ height: 130px;
+list-style: none;
+text-decoration: none;
+border-radius: 15px;
+}
+
+/* div de los botones de cancel y edit */
+
+.buttons {
+  position: relative;
+  top:90px;
+  padding: 10px;
+  left: 140px;
+  
+}
+
+/* los inputs  del formulario */
+
+.first_name {
+  height: 30px;
+  position: relative;
+  top: 10px;
+  border-radius: 6px;
+  right: 80px;
+  box-shadow: 10px 15px 10px rgba(0 ,0,0,0.8);
+}
+
+.last_name {
+  position: relative;
+  left: 120px;
+  bottom: 60px;
+  height: 30px;
+  border-radius: 6px;
+  box-shadow: 10px 15px 10px rgba(0 ,0,0,0.8);
+  
+
+}
+
+.email1 {
+  position: relative;
+  bottom: 40px;
+  width: 370px;
+  height: 30px;
+  right: 40px;
+  border-radius: 6px;
+  box-shadow: 10px 15px 10px rgba(0 ,0,0,0.8);
+
+}
+
+.birthday1 {
+  position: relative;
+  bottom: 20px;
+  width: 370px;
+  height: 30px;
+  right: 70px;
+  border-radius: 6px;
+  box-shadow: 10px 15px 10px rgba(0 ,0,0,0.8);
+
+}
+
+.password {
+  width: 370px;
+  height: 30px;
+  position: relative;
+  right: 80px;
+  border-radius: 6px;
+  box-shadow: 10px 15px 10px rgba(0 ,0,0,0.8);
+
+}
+
+/* botones de cancel y edit  */
+
+.submit-btn {
+  margin: 10px;
+  width: 100px;
+  height: 30px;
+  position: relative;
+  right: 60px;
+  border-radius: 6px;
+letter-spacing: 4px;
+}
+
+.submit-btn:hover {
+  box-shadow: 15px 0px 10px #FF8066, 15px 0px 40px #FF8066, 15px 0px 80px #FF8066;
+background: #FF8066;
+}
+
+.btn_cancel {
+  width: 100px;
+  height: 30px;
+  border-radius: 6px;
+  letter-spacing: 4px;
+}
+
+.btn_cancel:hover {
+  box-shadow: 15px 0px 10px #FF8066, 15px 0px 40px #FF8066, 15px 0px 80px #FF8066;
+background: #FF8066;
+}
+
+/* Aqui  estan  los label  y  sus estilos */
+
+.bir {
+  position: relative;
+  bottom: 50px;
+  left: 120px;
+}
+
+.ema {
+  position: relative;
+  bottom: 70px;
+  left: 140px;
+}
+
+.pass {
+  position: relative;
+  bottom: 40px;
+  left: 120px;
+}
+
+.first {
+  position: relative;
+  bottom: 20px;
+  left: 40px;
+}
+
+.last {
+  position: relative;
+  bottom: 90px;
+  left: 240px;
+}
+
+.name {
+  position: relative;
+  left: 130px;
+  margin: 30px;
+  top: 10px;
+  font-size: 22px;
+}
+
+.btn_list {
+  position: relative;
+  left: 400px;
   }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  .birthday {
+    position: relative;
+    top: 30px;
+    left: 40px;
+    list-style: none;
   }
-  to {
-    transform: rotate(360deg);
+
+  .email {
+    position: relative;
+    top: 15px;
+    left: 35px;
+    list-style: none;
   }
+
+/* botones de iconos para  delete and edit */
+
+ .edi {
+  position: relative;
+  bottom: 50px;
+  left: 30px;  
 }
+
+.edi:hover{
+   box-shadow: 1px 0px 1px #FF8066, 10px 0px 40px #FF8066, 10px 0px 20px #FF8066; 
+ }
+
+                          
+ .deletes {
+   position:relative;
+   left: 30px;
+   bottom: 15px;  
+ }
+
+ .deletes:hover{
+  box-shadow: 1px 0px 1px #FF8066, 10px 0px 40px #FF8066, 10px 0px 20px #FF8066; 
+
+ }
